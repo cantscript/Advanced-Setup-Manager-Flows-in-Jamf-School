@@ -6,7 +6,7 @@
 </p>
 
 
-Jamf Setup Manager powered up macOS deployment workflows for Jamf School but what happens when you power up the power up? In this blog, [Advanced Setup Manager Flows in Jamf School, Part 1]() we look at some advanced Setup Manager workflows aimed specifically at Jamf School
+Jamf Setup Manager powered up macOS deployment workflows for Jamf School but what happens when you power up the power up? In this blog, [Advanced Setup Manager Flows in Jamf School, Part 1](https://cantscript.com/posts/advanced-setup-manager-flows-in-jamf-school/) we look at some advanced Setup Manager workflows aimed specifically at Jamf School
 
 
 #### Blog Resources
