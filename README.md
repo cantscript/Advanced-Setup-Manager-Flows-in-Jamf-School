@@ -10,7 +10,7 @@ Jamf Setup Manager powered up macOS deployment workflows for Jamf School but wha
 
 
 #### Blog Resources
-**[EnrollmentPkgPackager]()** <br>
+**[EnrollmentPkgPackager](https://github.com/cantscript/Advanced-Setup-Manager-Flows-in-Jamf-School/tree/main/EnrollmentPkgPackager)** <br>
 
 * Clone or download repo
 * Keep EnrollmentPkgPackager.sh in the folder enclosed folder
@@ -21,7 +21,7 @@ Jamf Setup Manager powered up macOS deployment workflows for Jamf School but wha
 * Logic within the script to produce signed or unsigned pkg depending on your needs
 
 
-**[Example Setup Manager Configuration Profile]()** <br>
+**[Example Setup Manager Configuration Profile](https://github.com/cantscript/Advanced-Setup-Manager-Flows-in-Jamf-School/blob/main/Example_JSM_Advanced_WorkflowPt1.mobileconfig)** <br>
 Basic configuration profile for Setup Manager that shows 
 
 - `enrolment actions` that call scripts from the `/Library/Application Support/JamfSetupManager` folder
@@ -29,5 +29,5 @@ Basic configuration profile for Setup Manager that shows
 
 **Example Scripts** <br>
 
-- [RefreshDetails.sh]() - A script that uses an API call to refresh the details of the device it runs on
-- [finishedScript]() - The final script that is ran after Setup Manager completes and deletes the `/Library/Application Support/JamfSetupManager` folder
+- [RefreshDetails.sh](https://github.com/cantscript/Advanced-Setup-Manager-Flows-in-Jamf-School/blob/main/EnrollmentPkgPackager/payload/Library/Application%20Support/JamfSetupManager/RefreshDetails.sh) - A script that uses an API call to refresh the details of the device it runs on
+- [finishedScript](https://github.com/cantscript/Advanced-Setup-Manager-Flows-in-Jamf-School/blob/main/EnrollmentPkgPackager/payload/Library/Application%20Support/JamfSetupManager/finishedScript.sh) - The final script that is ran after Setup Manager completes and deletes the `/Library/Application Support/JamfSetupManager` folder
