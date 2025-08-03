@@ -41,12 +41,18 @@
 										<string>/usr/sbin/systemsetup</string>
 									</dict>
 									<dict>
-										<key>icon</key>
-										<string>symbol:wifi</string>
 										<key>label</key>
-										<string>Checking Wifi Network</string>
+										<string>Enter User Details</string>
+										<key>waitForUserEntry</key>
+										<string></string>
+									</dict>
+									<dict>
+										<key>icon</key>
+										<string>symbol:person.crop.circle.badge.plus</string>
+										<key>label</key>
+										<string>Assigning User to Device</string>
 										<key>shell</key>
-										<string>/Library/Application Support/JamfSetupManager/WiFiSwitcher.sh</string>
+										<string>/Library/Application Support/JamfSetupManager/AssignAUserFromJSM.sh</string>
 									</dict>
 									<dict>
 										<key>icon</key>
@@ -98,6 +104,18 @@
 									<string>Bienvenu!</string>
 									<key>nl</key>
 									<string>Welkom!</string>
+								</dict>
+								<key>userEntry</key>
+								<dict>
+									<key>email</key>
+									<string>Use your School email address</string>
+									<key>realname</key>
+									<dict>
+										<key>label</key>
+										<string>Full Name</string>
+										<key>placeholder</key>
+										<string>John Smith</string>
+									</dict>
 								</dict>
 							</dict>
 						</dict>
